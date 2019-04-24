@@ -4,8 +4,8 @@
 
 #### 1.1 Component Tree /Component Structure 
 
-+ Layout and Component Tree
-
++ Layout and Component Tree: 
+`propTypes` 是props validation packages. 
 
 #### 1.2 Application State(Data) 
 
