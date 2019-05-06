@@ -13,6 +13,7 @@ const controls = [
 // functional components
 
 const buildControls = (props) => {
+
     return (
         <div className={classes.BuildControls}>
             {controls.map(
@@ -21,7 +22,7 @@ const buildControls = (props) => {
                         key={control.label}
                         label={control.label}
                         type={control.type}
-                        added={() => props.addIngredent(control.type)}
+                        updated={props.updateIngredent}
                     />
                 )
             )}
